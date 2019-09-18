@@ -1,0 +1,12 @@
+﻿/* 本例子css */
+		.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+		.nav{ padding:0 3px; height:34px; line-height:34px; position:relative; z-index:1;}
+		.nav a{ color:#000000;  }
+		.nav .nLi{ float:left;  position:relative; display:inline;  }
+		.nav .nLi h3{ float:left;  }
+		.nav .nLi h3 a{ display:block; padding:0 4px; font-size:14px; font-weight:bold;  }
+		.nav .sub{ display:none; width:100px; left:0; top:34px;  position:absolute; background:#2C73AC;  line-height:26px; padding:5px 0;  }
+		.nav .sub li{ zoom:1; }
+		.nav .sub a{ display:block; padding:0 3px;color:#ffffff;padding:0 10px;}
+		.nav .sub a:hover{background:#ffffff;color:#2C73AC;text-decoration:none;}
+		.nav .nLi:last .on h3 a{background:#2C73AC;color:#ffffff;}
